@@ -1,0 +1,77 @@
+<html>
+    <title>POLITISIDES</title>
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+            background-color: whitesmoke;
+            margin: 0;
+        }
+        .ps {
+            background-color: whitesmoke;
+            border: none;
+            font-weight: bold;
+            height: 100%;
+            color: chocolate;
+            font-size: 120%;
+            width: 5%
+        }
+        .top {
+            
+            width: 101%;
+            height: 75px;
+            background-color: chocolate;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            z-index: 1000;
+        }
+        .menu {
+            height: 100%;
+            background-color: chocolate;
+            border: none;
+            font-size: 150%;            
+        }
+        .menu:hover {
+            transition-duration: .3s;
+            color: whitesmoke;
+        }
+        
+        .bottom {
+            width: 100%;
+            height: 20%;
+            background-color: black;
+            color: whitesmoke;
+            
+        }
+        .symbol {
+            text-align: center;
+            vertical-align: bottom;
+            padding-top: 6%;
+        }
+        #ifr {
+            display: block;
+            border: None;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+    </style>
+    <script>
+    </script>
+    <body>
+        <div class="top">
+            <button class="ps">PS</button>
+            <button class="menu">News</button>
+            <button class="menu">People</button>
+            <button class="menu">Videos</button>
+        </div>
+        <iframe src="/files/today.html" id="ifr"></iframe>
+        
+        <div class="bottom">
+            <h2 class="symbol">POLITISIDES 2020</h2>
+        </div>
+    </body>
+</html>

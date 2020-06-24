@@ -1,0 +1,407 @@
+[INFO  - 2020-06-24T01:12:06.613Z] GhostDriver - Main - running on port 59656
+[INFO  - 2020-06-24T01:12:11.023Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2020-06-24T01:12:11.023Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.customHeaders:  - {}
+[INFO  - 2020-06-24T01:12:11.023Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2020-06-24T01:12:11.023Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: bb0f0db0-b5b7-11ea-954d-f3342d40f900
+[ERROR - 2020-06-24T01:12:12.363Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - msg: ReferenceError: Can't find variable: Map
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-24T01:12:12.364Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - stack:
+  (anonymous function) (https://www.cnn.com/.a/2.217.2/js/cnn-header-second-react.min.js:35)
+  o (https://www.cnn.com/.a/2.217.2/js/cnn-header-second-react.min.js:1)
+  (anonymous function) (https://www.cnn.com/.a/2.217.2/js/cnn-header-second-react.min.js:27)
+  o (https://www.cnn.com/.a/2.217.2/js/cnn-header-second-react.min.js:1)
+  (anonymous function) (https://www.cnn.com/.a/2.217.2/js/cnn-header-second-react.min.js:27)
+  (anonymous function) (https://www.cnn.com/.a/2.217.2/js/cnn-header-second-react.min.js:27)
+  o (https://www.cnn.com/.a/2.217.2/js/cnn-header-second-react.min.js:1)
+  (anonymous function) (https://www.cnn.com/.a/2.217.2/js/cnn-header-second-react.min.js:74)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-24T01:12:15.016Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-24T01:12:15.016Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - stack:
+  (anonymous function) (https://assets.bounceexchange.com/assets/smart-tag/versioned/ijs_all_modules_c64316f937ec8ea990155c9cc56bb2c5.js:1)
+  __webpack_require__ (https://assets.bounceexchange.com/assets/smart-tag/versioned/ijs_all_modules_c64316f937ec8ea990155c9cc56bb2c5.js:1)
+  (anonymous function) (https://assets.bounceexchange.com/assets/smart-tag/versioned/ijs_all_modules_c64316f937ec8ea990155c9cc56bb2c5.js:1)
+  __webpack_require__ (https://assets.bounceexchange.com/assets/smart-tag/versioned/ijs_all_modules_c64316f937ec8ea990155c9cc56bb2c5.js:1)
+  (anonymous function) (https://assets.bounceexchange.com/assets/smart-tag/versioned/ijs_all_modules_c64316f937ec8ea990155c9cc56bb2c5.js:1)
+  __webpack_require__ (https://assets.bounceexchange.com/assets/smart-tag/versioned/ijs_all_modules_c64316f937ec8ea990155c9cc56bb2c5.js:1)
+  (anonymous function) (https://assets.bounceexchange.com/assets/smart-tag/versioned/ijs_all_modules_c64316f937ec8ea990155c9cc56bb2c5.js:1)
+  (anonymous function) (https://assets.bounceexchange.com/assets/smart-tag/versioned/ijs_all_modules_c64316f937ec8ea990155c9cc56bb2c5.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-24T01:12:15.292Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - msg: Unhandled promise rejection Error: NotSupportedError: DOM Exception 9
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-24T01:12:15.292Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - stack:
+  (anonymous function) (https://www.cnn.com/.a/2.217.2/js/cnn-header-second-react.min.js:74)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-24T01:12:18.133Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - msg: SyntaxError: Invalid character: '`'
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-24T01:12:18.134Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - stack:
+  replaceChild (https://www.cnn.com/:18)
+  _insertCursor (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _handleScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeImpl (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  runStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  nextStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _callFunction (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _onScriptDone (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _handleScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeImpl (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _onScriptDone (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _handleScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeImpl (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  runStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  nextStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _callFunction (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _onScriptDone (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _handleScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeImpl (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  runStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  nextStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _callFunction (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _onScriptDone (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _handleScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeImpl (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  runStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  nextStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _callFunction (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _onScriptDone (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _handleScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeImpl (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  runStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  nextStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _callFunction (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _onScriptDone (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _handleScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeImpl (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  runStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  nextStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _callFunction (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _onScriptDone (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _handleScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeImpl (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  runStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  nextStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _callFunction (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _onScriptDone (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _handleScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeImpl (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  runStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  nextStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _callFunction (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  runStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  nextStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _callFunction (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _onScriptDone (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _handleScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeImpl (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  runStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  nextStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _callFunction (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _onScriptDone (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _handleScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeImpl (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  runStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  nextStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _callFunction (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  runStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  nextStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _callFunction (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _onScriptDone (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _handleScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeImpl (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  runStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  nextStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _callFunction (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  runStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  nextStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _callFunction (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  runStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  nextStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _callFunction (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _onScriptDone (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _handleScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeImpl (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  runStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  nextStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _callFunction (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _onScriptDone (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _handleScriptToken (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  _writeImpl (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  write (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  runStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  nextStream (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  postscribe (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  A (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  document (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  deliver (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  u (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  u (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  n (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+  (anonymous function) (https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-24T01:12:21.711Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - msg: SyntaxError: Expected token ')'
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-24T01:12:21.712Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - stack:
+  write (https://www.nbcnews.com/:7)
+  exports (https://assets.adobedtm.com/launch-EN03682f66064449c8b87d78eae3e2fc57.min.js:2)
+  (anonymous function) (:0)
+  (anonymous function) (https://assets.adobedtm.com/launch-EN03682f66064449c8b87d78eae3e2fc57.min.js:16)
+  (anonymous function) (https://assets.adobedtm.com/launch-EN03682f66064449c8b87d78eae3e2fc57.min.js:16)
+  (anonymous function) (https://assets.adobedtm.com/launch-EN03682f66064449c8b87d78eae3e2fc57.min.js:16)
+  (anonymous function) (https://assets.adobedtm.com/launch-EN03682f66064449c8b87d78eae3e2fc57.min.js:16)
+  (anonymous function) (https://assets.adobedtm.com/launch-EN03682f66064449c8b87d78eae3e2fc57.min.js:16)
+  (anonymous function) (https://assets.adobedtm.com/launch-EN03682f66064449c8b87d78eae3e2fc57.min.js:17)
+  forEach (:0)
+  Ae (https://assets.adobedtm.com/launch-EN03682f66064449c8b87d78eae3e2fc57.min.js:17)
+  (anonymous function) (https://assets.adobedtm.com/launch-EN03682f66064449c8b87d78eae3e2fc57.min.js:17)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-24T01:12:21.735Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - msg: TypeError: undefined is not an object (evaluating 'BI.userInfo.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-24T01:12:21.735Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - stack:
+  (anonymous function) (https://www.nbcnews.com/:11)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-24T01:12:22.944Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - msg: SyntaxError: DOM Exception 12: An invalid or illegal string was specified.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-24T01:12:22.944Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - stack:
+  insertRule (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:81)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:81)
+  map (:0)
+  on (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:81)
+  process (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:33)
+  walk (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:97)
+  walk (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:97)
+  walk (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:97)
+  walk (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:97)
+  walk (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:97)
+  walk (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:97)
+  walk (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:97)
+  exec (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:97)
+  run (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:97)
+  _process (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:89)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:89)
+  y (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:89)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:89)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:89)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  e (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  resolve (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:65)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  e (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  e (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  resolve (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:59)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  e (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  resolve (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:61)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  e (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  resolve (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:67)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  e (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  resolve (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:67)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  e (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  resolve (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:67)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  e (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  e (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  e (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  resolve (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:103)
+  _targ (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:89)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:89)
+  _preboot (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:89)
+  _init (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:89)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:89)
+  exec (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:97)
+  run (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:97)
+  do_run (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:89)
+  _do (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:89)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:89)
+  push (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:89)
+  run (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:89)
+  (anonymous function) (https://cdn-v3.conductrics.com/ac-kANJFqzwHz/v3/agent-api/js/f-MGXQstUBzA/dt-3RxgN1KLu0QvqskKLYBEVyV2EGUVvw?apikey=api-GCNKdGuimYDiuTjQpVpN:121)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-24T01:12:23.909Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - msg: Error sending event to mParticle servers. AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-24T01:12:23.910Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - stack:
+  error (https://jssdkcdns.mparticle.com/js/v2/65ea0b28a73c4c4abd08599774d30799/mparticle.js:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-24T01:12:25.525Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - msg: ReferenceError: Can't find variable: WeakMap
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-24T01:12:25.525Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - stack:
+  (anonymous function) (https://static.foxnews.com/static/strike/scripts/libs/prebid.js:1)
+  f (https://static.foxnews.com/static/strike/scripts/libs/prebid.js:1)
+  (anonymous function) (https://static.foxnews.com/static/strike/scripts/libs/prebid.js:1)
+  f (https://static.foxnews.com/static/strike/scripts/libs/prebid.js:1)
+  (anonymous function) (https://static.foxnews.com/static/strike/scripts/libs/prebid.js:1)
+  f (https://static.foxnews.com/static/strike/scripts/libs/prebid.js:1)
+  (anonymous function) (https://static.foxnews.com/static/strike/scripts/libs/prebid.js:1)
+  f (https://static.foxnews.com/static/strike/scripts/libs/prebid.js:1)
+  (anonymous function) (https://static.foxnews.com/static/strike/scripts/libs/prebid.js:1)
+  f (https://static.foxnews.com/static/strike/scripts/libs/prebid.js:1)
+  (anonymous function) (https://static.foxnews.com/static/strike/scripts/libs/prebid.js:1)
+  f (https://static.foxnews.com/static/strike/scripts/libs/prebid.js:1)
+  (anonymous function) (https://static.foxnews.com/static/strike/scripts/libs/prebid.js:1)
+  f (https://static.foxnews.com/static/strike/scripts/libs/prebid.js:1)
+  (anonymous function) (https://static.foxnews.com/static/strike/scripts/libs/prebid.js:1)
+  f (https://static.foxnews.com/static/strike/scripts/libs/prebid.js:1)
+  (anonymous function) (https://static.foxnews.com/static/strike/scripts/libs/prebid.js:1)
+  f (https://static.foxnews.com/static/strike/scripts/libs/prebid.js:1)
+  (anonymous function) (https://static.foxnews.com/static/strike/scripts/libs/prebid.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-24T01:12:25.573Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - msg: Error: Error loading script: //player.h-cdn.com/loader.js?customer=foxnews
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-24T01:12:25.573Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - stack:
+  (anonymous function) (https://global.fncstatic.com/static/isa/core-app.js?v=v64:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-24T01:12:31.256Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - msg: Error: [Modulr] error loading script: https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-24T01:12:31.256Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - stack:
+  q (https://my.foxnews.com/js/modulr.min.js:7)
+  r (https://my.foxnews.com/js/modulr.min.js:7)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-24T01:12:32.271Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-24T01:12:32.271Z] Session [bb0f0db0-b5b7-11ea-954d-f3342d40f900] - page.onError - stack:
+  (anonymous function) (https://vupulse.com/static/widget.js:2)
+  t (https://vupulse.com/static/widget.js:2)
+  (anonymous function) (https://vupulse.com/static/widget.js:2)
+  t (https://vupulse.com/static/widget.js:2)
+  (anonymous function) (https://vupulse.com/static/widget.js:2)
+  t (https://vupulse.com/static/widget.js:2)
+  (anonymous function) (https://vupulse.com/static/widget.js:2)
+  t (https://vupulse.com/static/widget.js:2)
+  (anonymous function) (https://vupulse.com/static/widget.js:2)
+  t (https://vupulse.com/static/widget.js:2)
+  (anonymous function) (https://vupulse.com/static/widget.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2020-06-24T04:13:21.152Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-24T04:31:22.644Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-24T04:36:22.655Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-24T04:41:22.666Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-24T04:46:22.668Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-24T04:51:22.672Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-24T04:56:22.673Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-24T08:00:31.392Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-24T16:45:09.607Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-24T16:50:09.055Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-24T16:55:09.056Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-24T17:00:09.065Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-24T17:05:09.065Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-24T17:10:09.073Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-24T17:15:09.074Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-24T17:20:09.074Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-24T17:25:09.076Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-24T17:30:09.081Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-24T17:35:09.093Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

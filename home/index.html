@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>POLITISIDES</title>
+    </head>
+    <script>
+        function update_image(){
+            document.getElementById("box1r").style.backgroundImage = "https://www.tesla.com/sites/tesla/files/curatedmedia/performance-hero%402.jpg"
+        }
+        
+    </script>
+    <style>
+        body{
+            width: 100%;
+            height: 100%;
+            background-color: whitesmoke;
+        }
+        html {
+            padding: 0;
+        }
+        .inner{
+            background-image: url("https://www.tesla.com/sites/tesla/files/curatedmedia/performance-hero%402.jpg");
+            background-size: 50% auto;
+            background-repeat: no-repeat;
+            \\background-attachment: fixed;
+             
+        }
+        .column{
+            width: 50%;
+        }
+        .box{
+            width: inherit;
+            height: inherit;
+            background-color: #7c42b7;
+            
+            
+            
+        
+        }
+          
+        .top {
+            transition-duration: .2s;
+            background-color: #7c42b7;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            height: 10px;
+            text-align: center;
+            font-size: 0%;
+            width: 30%;
+        }
+        .top:hover{
+            border-radius: 0px;
+            \\transition-duration: .5s;
+            background-color:  #7c42b7;
+            width: 30%;
+            height: 20%;
+            font-size: 100%;
+        
+            
+            
+        }
+        .top:hover > .menubutton 
+        {
+            \\transition-duration: .2s;
+            margin: 0px;
+            visibility: visible;
+            width: 100%;
+            height: 100%;
+            cursor: context-menu;
+            background-color: #7c42b7;
+            color: whitesmoke;
+            
+            
+            
+        }
+        .menubutton {
+            margin: 0px; 
+            visibility: hidden;
+            color: #7c42b7; 
+            
+        }
+        
+    </style>
+    <body>
+        <div class="top">
+            
+            <h1 type="button" class="menubutton" onclick="location.href=/people/">News</h1>
+            <h1 type="button" class="menubutton" onclick="location.href=/people/">People</h1>
+            <h1 type="button" class="menubutton">About</h1>
+            
+         </div>
+        <div class="box" id="box1">
+            <div class="column">
+            <img class="inner">
+            </div>
+            <div class="column">
+            <img class="inner">
+            </div>
+            <script>
+           // update_image();
+        </script>
+        </div>
+    </body>
+    
+</html>

@@ -1,0 +1,212 @@
+<html>
+    <title>POLITISIDES</title>
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+            background-color: whitesmoke;
+            margin: 0;
+        }
+        .ps {
+            background-color: whitesmoke;
+            border: none;
+            font-weight: bold;
+            height: 100%;
+            color: 708090;
+            font-size: 120%;
+            width: 5%
+        }
+        .top {
+            
+            width: 101%;
+            height: 10%;
+            background-color: chocolate;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            z-index: 1000;
+        }
+        .menu {
+            height: 100%;
+            background-color: chocolate;
+            border: none;
+            font-size: 150%;            
+        }
+        .menu:hover {
+            transition-duration: .3s;
+            color: whitesmoke;
+        }
+        
+        .bottom {
+            width: 100%;
+            height: 10%;
+            background-color: whitesmoke;
+            color: black;
+            
+        }
+        .symbol {
+            text-align: center;
+            vertical-align: bottom;
+            padding-top: 6%;
+        }
+        #ifr {
+            display: block;
+            overflow: hidden;
+            border: None;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            width: 100%;
+            height: 100%;
+            background-color: whitesmoke;
+        }
+        
+        .menu {
+            height: 100%;
+            background-color: #d2691e;
+            border: none;
+            font-size: 150%;
+
+        }
+        .menu:hover {
+            transition-duration: .3s;
+            color: whitesmoke;
+        }
+        .box {
+            transition-duration: .5s;
+            width: 75%;
+            
+            height: 275px;
+            background-color: #708090;
+            margin-top: 1%;
+            align-self: center;
+            margin-left: 5%;
+        }
+        .box:hover {
+            transition-duration: .2s;
+            width: 76%;
+            height: 255px;
+            box-shadow: 10px 15px #cbddef;
+
+
+        }
+        .symbol {
+            text-align: center;
+            vertical-align: bottom;
+            padding-top: 6%;
+            background-color: black;
+        }
+        img {
+
+            position: relative;
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+            width: 45%;
+            height: 50%;
+            margin: 2.5%;
+            margin-top: 2.5%;
+            
+        }
+        
+        .right {
+            width: 40%;
+            float: right;
+            margin: 5%;
+            margin-top: 1%;
+            margin-left: 2.5%;
+            color: navajowhite;
+            font-weight: 50000;
+    
+        }
+        .left {
+            width: 40%;
+            float: left;
+            margin: 5%;
+            margin-top: 1%;
+            margin-right: 2.5%;
+            color: navajowhite;
+            font-weight: 50000;
+    
+        }
+        
+        
+        #news {
+            padding-top: 10%;
+        }
+        .jump {
+            width: 50px;
+            height: auto;
+        }
+        .covid {
+            height: 100%;
+            background-color: slategray;
+            color: navajowhite;
+            border: none;
+            font-size: 150%;
+
+        }
+        .covid:hover {
+            font-size: 160%;
+        }
+
+    </style>
+    
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    </head>
+    <body>
+        <div class="top">
+            <button class="ps">PLS</button>
+            <button class="menu" onclick="location.href='/'">News</button>
+            <button class="menu" onclick="location.href='/about'">About</button>
+            <button class="menu" onclick="location.href='#disqus_thread'">Comment</button>
+            <button class="covid" onclick="location.href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019'" target = '_blank'>Covid-19 reosorces</button>
+
+        </div>
+        <script type="text/javascript">
+            
+            $(document).ready(function(){
+                $.get( "/files/today.html", function( data ) {
+                    $( ".result" ).html( data );
+                    document.getElementById("news").innerHTML = data;
+                });
+                
+                
+            });
+            
+            
+
+        </script>
+        
+        <div id="news"></div>
+
+        
+        <div class="bottom">
+            <h2 class="symbol">   What do you think of today's news?</h2>
+             <div id="disqus_thread" style="color: black;"></div>
+                <script>
+
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                
+                var disqus_config = function () {
+               // this.page.url = "/";  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = Date(); // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://politisides.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+    </body>
+</html>
