@@ -4,9 +4,16 @@
     <list default="true" id="2caa184f-4326-41d2-aa3f-39c79296ba3d" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/politisides2/home/cssf.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/politisides2/home/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politisides2" beforeDir="false" afterPath="$PROJECT_DIR$/politisides2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/politisides2/flask_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/politisides2/flask_app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/politisides2/home/styles/cssf.css" beforeDir="false" afterPath="$PROJECT_DIR$/politisides2/home/styles/cssf.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politisides2/home/templates/calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/politisides2/home/templates/calculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politisides2/home/templates/comment.html" beforeDir="false" afterPath="$PROJECT_DIR$/politisides2/home/templates/comment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/politisides2/home/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/politisides2/home/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politisides2/home/templates/more.html" beforeDir="false" afterPath="$PROJECT_DIR$/politisides2/home/templates/more.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politisides2/home/templates/under_covered.html" beforeDir="false" afterPath="$PROJECT_DIR$/politisides2/home/templates/under_covered.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politisides2/home/templates/world_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/politisides2/home/templates/world_home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +27,7 @@
   <component name="ProjectId" id="1fv1yiKf3S9VKlVqGP2RzPlqwpX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/politisides2/home/styles" />
   </component>
   <component name="RecentsManager">
