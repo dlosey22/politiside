@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2caa184f-4326-41d2-aa3f-39c79296ba3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/politisides2/home/cssf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/politisides2/home/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politisides2/flask_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/politisides2/flask_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politisides2/home/styles/cssf.css" beforeDir="false" afterPath="$PROJECT_DIR$/politisides2/home/styles/cssf.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politisides2/home/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/politisides2/home/templates/home.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/politisides2" />
+  </component>
+  <component name="ProjectId" id="1fv1yiKf3S9VKlVqGP2RzPlqwpX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/politisides2/home/styles" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\danie\PycharmProjects\politisides2\politisides2\home\styles" />
+      <recent name="C:\Users\danie\PycharmProjects\politisides2\politisides2\home" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danie\PycharmProjects\politisides2\politisides2\home" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="flask_app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="politisides2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/politisides2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/politisides2/flask_app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.flask_app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2caa184f-4326-41d2-aa3f-39c79296ba3d" name="Default Changelist" comment="" />
+      <created>1597084008171</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597084008171</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
