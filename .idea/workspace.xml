@@ -4,6 +4,7 @@
     <list default="true" id="2caa184f-4326-41d2-aa3f-39c79296ba3d" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/politisides2/home/cssf.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/politisides2/home/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/politisides2" beforeDir="false" afterPath="$PROJECT_DIR$/politisides2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/politisides2/flask_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/politisides2/flask_app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/politisides2/home/styles/cssf.css" beforeDir="false" afterPath="$PROJECT_DIR$/politisides2/home/styles/cssf.css" afterDir="false" />
